@@ -28,7 +28,8 @@ public class AppolloService {
 		return ad.set(app);
 		}
 		}catch(AgeCheckException e) {
-			return "Invalid age";
+			return " put valid age";
+			
 		}
 	}
 
